@@ -1,0 +1,48 @@
+.container {
+  width: 282px;
+  background-color: #f0f0f0;
+  padding: 15px 0;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 6px 6px 10px black;
+}
+
+.keyPad {
+  padding: 15px 0 0 15px;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  font-size: large;
+  font-weight: 800;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #fafafa;
+}
+
+button:active {
+  background-color: aqua;
+}
+
+.searchBox {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+input {
+  padding-left: 10px;
+  width: 229px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.evalChar {
+  background-color: #ffcc00;
+}
